@@ -1,6 +1,10 @@
-# THE PROJECT IS ARCHIVED
+# THE PROJECT IS ALIVE!!!
 
-Forks: https://github.com/orsinium/forks
+It's a fork of https://github.com/life4/flakehell
+
+## Fork chores (contributions welcome!)
+
+[Progress](https://github.com/pwoolvett/flakehell/projects/1)
 
 ---
 
@@ -35,12 +39,15 @@ It's a [Flake8](https://gitlab.com/pycqa/flake8) wrapper to make it cool.
 
 ## Compatibility
 
-FlakeHell supports all flake8 plugins, formatters, and configs. However, FlakeHell has it's own beautiful way to configure enabled plugins and codes. So, options like `--ignore` and `--select` unsupported. You can have flake8 and FlakeHell in one project if you want but enabled plugins should be explicitly specified.
+FlakeHell supports all flake8 plugins, formatters, and configs. However, FlakeHell has
+it's own beautiful way to configure enabled plugins and codes. So, options like
+`--ignore` and `--select` unsupported. You can have flake8 and FlakeHell in one project
+if you want but enabled plugins should be explicitly specified.
 
 ## Installation
 
 ```bash
-python3 -m pip install --user flakehell
+pip install git+https://github.com/pwooolvett/flakehell.git@master
 ```
 
 ## Usage
@@ -111,7 +118,7 @@ Contributions are welcome! A few ideas what you can contribute:
 + Improve documentation.
 + Add more tests.
 + Improve performance.
-+ Found a bug? Fix it!
++ Found a bug? Fix it (or report it in the issues)!
 + Made an article about FlakeHell? Great! Let's add it into the `README.md`.
 + Don't have time to code? No worries! Just tell your friends and subscribers about the project. More users -> more contributors -> more cool features.
 
@@ -124,7 +131,7 @@ dephell deps install --env=pytest
 dephell venv run --env=pytest
 ```
 
-Bug-tracker is disabled by-design to shift contributions from words to actions. Please, help us make the project better and don't stalk maintainers in social networks and on the street.
+Bug-tracker has been enabled by-design to invite contributors and users. Please, help us make the project better and don't stalk maintainers in social networks and on the street.
 
 Thank you :heart:
 
