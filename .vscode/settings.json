@@ -1,0 +1,19 @@
+{
+    "editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": "variable.key.toml",
+            "settings": {
+                "foreground": "#e8364f",
+            }
+        },
+        {
+            "scope": "variable.key.table.toml",
+            "settings": {
+                "foreground": "#d77c23",
+            }
+        },
+    ]
+},
+"evenBetterToml.schema.links": true
+}
