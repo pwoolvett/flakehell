@@ -120,7 +120,8 @@ Contributions are welcome! A few ideas what you can contribute:
 + Improve performance.
 + Found a bug? Fix it (or report it in the issues)!
 + Made an article about FlakeHell? Great! Let's add it into the `README.md`.
-+ Don't have time to code? No worries! Just tell your friends and subscribers about the project. More users -> more contributors -> more cool features.
++ Don't have time to code? No worries! Just tell your friends and subscribers
+  about the project. More users -> more contributors -> more cool features.
 
 A convenient way to run tests is using [DepHell](https://github.com/dephell/dephell):
 

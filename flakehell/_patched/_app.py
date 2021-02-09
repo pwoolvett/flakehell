@@ -2,6 +2,7 @@
 import sys
 from argparse import ArgumentParser
 from itertools import chain
+import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -61,6 +62,10 @@ class FlakeHellApplication(Application):
         if path is not None:
             return read_config(path)
         # lookup for config from current dir up to root
+        env = os.environ.get("FLAKEHELL_TOML", None)
+        if env:
+            return read_config(Path(env).resolve())
+
         root = Path().resolve()
         for dir_path in chain([root], root.parents):
             path = dir_path / 'pyproject.toml'
